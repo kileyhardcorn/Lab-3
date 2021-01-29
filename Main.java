@@ -7,15 +7,19 @@ class Main {
  
     number = s.nextInt();
 
-    while(number <= 0){
+    if(number <= 0){
+      while(number <= 0){
       System.out.println(number);
       number++;
+      }
     }
 
-    while(number >= 0){
+else {
+while(number >= 0){
       System.out.println(number);
       number--;
-    }
+}
+ }
     System.out.println("Blast off!");
   }
 }
